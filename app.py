@@ -72,3 +72,10 @@ if selected == "Profiling":
     st.title("Automated Exploratory Data Analysis")
     profile_report = df.profile_report()
     st_profile_report(profile_report)
+
+if selected == "User Input":
+    st.title("User Input")
+
+
+if selected == "Download":
+    pass
