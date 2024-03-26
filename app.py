@@ -68,7 +68,7 @@ if selected == "Upload":
         df.to_csv("sourcedata.csv", index=None)
         st.dataframe(df)
 
-if choice == "Profiling":
+if selected == "Profiling":
     st.title("Automated Exploratory Data Analysis")
     profile_report = df.profile_report()
     st_profile_report(profile_report)
