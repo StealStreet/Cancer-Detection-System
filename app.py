@@ -17,6 +17,9 @@ selected = option_menu(
     orientation = "horizontal"
 )
 
+if os.path.exists("sourcedata.csv"):
+    df = pd.read_csv("sourcedata.csv", index_col=None)
+
 if selected == "Upload":
     st.title("Choose a ML Algorithm!!!")
     if "visibility" not in st.session_state:
@@ -64,3 +67,4 @@ if selected == "Upload":
         df = pd.read_csv(file, index_col=None)
         df.to_csv("sourcedata.csv", index=None)
         st.dataframe(df)
+
