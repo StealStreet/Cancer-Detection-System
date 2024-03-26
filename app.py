@@ -20,7 +20,7 @@ with st.sidebar:
     selected = option_menu(
         menu_title=None,
         options=["Dashboard", "Upload", "Profiling", "User Input", "Download"],
-        icons=["none", "upload", "person-lines-fill",
+        icons=["house", "upload", "person-lines-fill",
                "input-cursor", "download"],
         default_index=0,
         # orientation="horizontal"
