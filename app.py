@@ -42,7 +42,7 @@ if selected == "Dashboard":
     df_reshaped = pd.read_csv('data/us-population-2010-2019-reshaped.csv')
 
     with st.sidebar:
-        st.title('✅ US Population Dashboard')
+        st.title('✅ Cancer Data Dashboard')
 
         year_list = list(df_reshaped.year.unique())[::-1]
 
