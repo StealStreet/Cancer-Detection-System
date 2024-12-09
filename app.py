@@ -112,7 +112,7 @@ if __name__ == "__main__":
     # dashboard navigation
     if choice_dashboard == "Home":
         
-        st.title('✅ Cancer Data Dashboard')
+        st.title('✅ Cancer Prediction Dashboard')
         alt.themes.enable("dark")
 
         with st.sidebar:
@@ -212,7 +212,7 @@ if __name__ == "__main__":
         col1, col2 =  st.columns(2)
         with col1:
             # st.header("Machine Learning")
-            # st.radio(
+            # st.radio(                                         #radio features
             #     "Set selectbox label visibility 👉",
             #     key="visibility",
             #     options=["visible", "hidden", "collapsed"],
